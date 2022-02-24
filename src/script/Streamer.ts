@@ -1,0 +1,145 @@
+export interface Streamer {
+    handle: string;
+    name?: string;
+    pronouns?: string;
+    channelUrl: string;
+    imageUrl: string;
+    introductionUrl: string;
+}
+
+export const streamers: Streamer[] = [
+    {
+        handle: "1amtrain",
+        name: "Yambo",
+        channelUrl: "https://twitch.tv/1amtrain",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210660689031258/1amtrain.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1434546872652230658",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Ananasatom",
+        name: "Connor",
+        channelUrl: "https://twitch.tv/ananasatom",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210688325300254/Ananasatom.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1430560611683815426",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Badingoregrill",
+        name: "Feli",
+        channelUrl: "https://twitch.tv/Badingoregrill",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210689432600596/Bading.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1430198223101054980",
+        pronouns: "she/her",
+    },
+    {
+        handle: "Binakleinerals3",
+        name: "Bina",
+        channelUrl: "https://twitch.tv/binakleinerals3",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210690690908280/BinaKleiner.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1429473438960394240",
+        pronouns: "she/her",
+    },
+    {
+        handle: "Deraltan",
+        name: "Altan",
+        channelUrl: "https://twitch.tv/deraltan",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210691710111774/DerAltan.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1433097326667644931",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Dosenpfirsiche",
+        name: "Lisa",
+        channelUrl: "https://twitch.tv/dosenpfirsiche",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210693199081542/dosen.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1433822104395395072",
+        pronouns: "she/they",
+    },
+    {
+        handle: "Emtes",
+        name: "Emre",
+        channelUrl: "https://twitch.tv/emtes",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210694654496768/Emtes.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1432372546503118856",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Theescarboom",
+        name: "Noah",
+        channelUrl: "https://twitch.tv/theescarboom",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210695367557240/Escar.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1428748667649814535",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Grandtriskel",
+        name: "Luca",
+        channelUrl: "https://twitch.tv/grandtriskel",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210698039320596/grand.jpg",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1430922994516439043",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Kleeder",
+        channelUrl: "https://twitch.tv/kleeder",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210700279087104/kleeder.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1431285375721369600",
+    },
+    {
+        handle: "Kurisuvanedge",
+        name: "Chris",
+        channelUrl: "https://twitch.tv/kurisuvanedge",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210706167857152/Kurisu.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1432734931050975237",
+        pronouns: "she/her",
+    },
+    {
+        handle: "Lisanougat",
+        name: "Lisa",
+        channelUrl: "https://twitch.tv/lisanougat",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210708210503721/LisaNoug.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1432010159031668738",
+        pronouns: "she/her",
+    },
+    {
+        handle: "Nislregen",
+        name: "Nils",
+        channelUrl: "https://twitch.tv/nislregen",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210708806099004/Nisl.jpg",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1433459713484668936",
+        pronouns: "he/him",
+    },
+    {
+        handle: "Sir_nightmare94",
+        name: "Sven",
+        channelUrl: "https://twitch.tv/sir_nightmare94",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210711620460554/SirNight.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1429111050306211841",
+        pronouns: "he/him",
+    },
+    {
+        handle: "GumLong",
+        name: "Jesko",
+        channelUrl: "https://twitch.tv/GumLong",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210863684972594/GumLong.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1434184486485434375",
+        pronouns: "he/him",
+    },
+    {
+        handle: "piatralisch",
+        name: "Pia",
+        channelUrl: "https://twitch.tv/piatralisch",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210711444320328/piatralisch.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1431647771619209216",
+        pronouns: "she/her",
+    },
+    {
+        handle: "Fiesabella",
+        name: "Isi",
+        channelUrl: "https://twitch.tv/Fiesabella",
+        imageUrl: "https://cdn.discordapp.com/attachments/884876456281403402/885210696676167770/Fiesa.png",
+        introductionUrl: "https://twitter.com/WeekOfCharity/status/1429835832886800390",
+        pronouns: "she/her",
+    },
+];
